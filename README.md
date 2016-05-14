@@ -1,8 +1,17 @@
 # go-mysql-mysql_bridge
 Go 实现MySQL桥，支持单/多条SQL语句执行，支持有序/无序数据查询，支持单条带参数SQL执行。超方便~~~
+
 # 使用
 导入mysql_bridge/utils包即可
+
+# 主要方法
+
+- func ExecSqlBySqlMap(sqlObject map[string]string) (map[string]interface{})
+- func ExecSqlBySqlSlice(sqlObject []string) ([]interface{})
+- func ExecSql(sql string, args ...interface{}) (rowsAffected int64, lastInsertId int64, err error)
+
 # 实例
+
 ```go
 package main
 
