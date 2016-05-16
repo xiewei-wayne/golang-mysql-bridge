@@ -1,4 +1,4 @@
-# go-mysql-mysql_bridge
+# golang-mysql-bridge
 Go 实现MySQL桥，支持单/多条SQL语句执行，支持有序/无序数据查询，支持单条带参数SQL执行。超方便~~~
 
 # 使用
